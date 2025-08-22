@@ -9,7 +9,7 @@
 	"scripts": {
 		"dev": "astro dev",
 		"build": "astro build",
-		"start": "astro start --host 0.0.0.0 --port $PORT"
+		"start": "node ./dist/server/entry.mjs"
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "^8.0.0",
