@@ -8,7 +8,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "astro dev",
-		"build": "pnpm -w build && astro build"
+		"build": "astro build",
+		"start": "astro start --host 0.0.0.0 --port $PORT"
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "^8.0.0",
